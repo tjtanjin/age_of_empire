@@ -486,7 +486,7 @@ cplayer = Empire("Egyptians") #declare cplayer as an instance of Empire class
 nplayer = Empire("Greeks") #declare nplayer as an instance of Empire class
 valid_name = False
 while valid_name == False:
-    cplayername = (input("> "))
+    cplayername = input("> ")
     if len(str(cplayername)) == 0: #checks for a valid name
         print("Please enter a valid name!")
     else:
@@ -501,7 +501,7 @@ def start():
     cplayer.soldier['attack'] = 5
     cplayer.warrior['num'] = 15
     cplayer.warrior['attack'] = 10
-    cplayer.knight['num'] = 200
+    cplayer.knight['num'] = 5
     cplayer.knight['attack'] = 20
     nplayer.castle['max_castle_health'] = 2000
     nplayer.castle['current_castle_health'] = nplayer.castle['max_castle_health']
@@ -510,7 +510,7 @@ def start():
     nplayer.soldier['attack'] = 5
     nplayer.warrior['num'] = 15
     nplayer.warrior['attack'] = 10
-    nplayer.knight['num'] = 200
+    nplayer.knight['num'] = 5
     nplayer.knight['attack'] = 20
     print("Welcome %s! Your army awaits! Which gamemode would you like to choose?\n1. Player VS Player \n2. Player VS AI \n3. AI VS AI" % cplayername)
     while True:
