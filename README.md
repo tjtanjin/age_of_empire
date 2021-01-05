@@ -54,7 +54,7 @@ https://github.com/tjtanjin/age_of_empire
 The following section will guide you through setting up Age of Empire to play!
 * First, cd to the directory of where you wish to store the project and clone this repository. An example is provided below:
 ```
-$ cd home/user/exampleuser/projects/
+$ cd /home/user/exampleuser/projects/
 $ git clone https://github.com/tjtanjin/age_of_empire.git
 ```
 * From the base directory of the project, execute the following command and you will see the welcome screen if everything has been setup correctly, it's that simple!
